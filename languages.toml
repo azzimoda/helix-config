@@ -1,0 +1,8 @@
+[language-server.standardrb]
+command = "standardrb"
+args = ["--lsp"]
+
+[[language]]
+name = "ruby"
+auto-format = true
+language-servers = [ "solargraph", "standardrb" ]

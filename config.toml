@@ -1,0 +1,29 @@
+theme = "gruvbox_dark_hard"
+
+[editor]
+scrolloff = 5
+line-number = "relative"
+cursorline = true
+completion-replace = true
+rulers = [80, 100]
+bufferline = "always"
+
+[editor.cursor-shape]
+insert =  "bar"
+normal = "block"
+select = "underline"
+
+[editor.file-picker]
+hidden = false
+
+[editor.whitespace]
+render = "all"
+
+[editor.indent-guides]
+render = true
+
+[keys.normal]
+A-h = "@;vghv"
+A-l = "@;vglv"
+A-o = "@o<esc>"
+# A-O = "@O<esc>" # NOTE: Doesn't work
